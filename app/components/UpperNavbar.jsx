@@ -4,7 +4,7 @@ import {FaFacebook,FaTwitter,FaInstagram,FaYoutube,FaTiktok,FaLinkedinIn} from "
 const Navbar = () => {
   return (
    <nav>
-   <div className='socials bg-gray-800 w-full h-10 flex  justify-between'>
+   <div className='socials bg-gray-800 w-full h-10 flex   justify-between'>
         <div className='logo-Text lg:pl-8 pt-2 text-white visible sm:invisible md:visible lg:visible'>
           <h2>THINK HOME, THINK VENTO</h2>
         </div>

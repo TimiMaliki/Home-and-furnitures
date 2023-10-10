@@ -3,6 +3,10 @@ import Navmenu from "./components/Navmenu"
 import Hero from './components/Hero'
 import FurnituresCollection from './components/FurnituresCollection'
 import Rooms from './components/Rooms'
+import BestSellers from './components/BestSellers'
+import Trending from './components/Trending'
+import NewProduct from './components/NewProduct'
+
 
 
 export default function Home() {
@@ -13,6 +17,9 @@ export default function Home() {
     <Hero />
     <FurnituresCollection />
     <Rooms />
+    <BestSellers/>
+    <Trending/>
+    <NewProduct />
    </main>
   )
 }

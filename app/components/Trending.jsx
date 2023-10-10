@@ -1,38 +1,40 @@
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation} from 'swiper/modules';
 import Image from 'next/image'
 import   Coin from "../../public/coin.jpg"
+import { Pagination, Navigation } from 'swiper/modules';
+
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 
-const Rooms = () => {
+
+const Trending = () => {
 
 
 
   return (
-    <div className='px-8 '>
-    <Swiper
-      // install Swiper modules
-      modules={[Navigation]}
-      spaceBetween={50}
-      slidesPerView={3}
-      navigation
-      pagination={{ clickable: false}}
-      scrollbar={{ draggable: false }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+    <div className='px-20  w-full h-full '>
+  <div className='w-30 h-26 mt-20 items-center text-center '>
+        <h2 className='text-lg font-black text-3xl mb-4'>TRENDING PRODUCTS</h2>
+      </div>
+
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
     >
 
 
 
       <SwiperSlide>
-        <div className='grid items-center text-center w-full h-full '>
+        <div className='grid items-center text-center w-full h-96'>
         <Image src={Coin} width={300} height={300}/>
          <p>SOFA SET</p>
           </div>
@@ -51,16 +53,36 @@ const Rooms = () => {
          <p>SOFA SET</p>
           </div>
       </SwiperSlide>
+
+     
       <SwiperSlide>
       <div className='grid items-center text-center w-full h-96'>
         <Image src={Coin} width={300} height={300}/>
          <p>SOFA SET</p>
           </div>
       </SwiperSlide>
+
+      <SwiperSlide>
+      <div className='grid items-center text-center w-full h-96'>
+        <Image src={Coin} width={300} height={300}/>
+         <p>SOFA SET</p>
+          </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+      <div className='grid items-center text-center w-full h-96'>
+        <Image src={Coin} width={300} height={300}/>
+         <p>SOFA SET</p>
+          </div>
+      </SwiperSlide>
+
+
+
     </Swiper>
+   
+
     </div>
   )
 }
 
-export default Rooms
-
+export default Trending
