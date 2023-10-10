@@ -3,8 +3,8 @@ import {FaShoppingCart,FaSearch , FaHeart} from "react-icons/fa"
 
 const NavMenu = () => {
   return (
- <nav  className='sticky'>
-  <div className='w-full h-24 p-16 bg-white flex justify-between'>
+ <nav  className='sticky w-full'>
+  <div className='w-full h-24 p-16 bg-white flex justify-between lg:visible sm:invisible'>
     <div className='Logo'>
      <h2 className='text-black text-4xl'>Maliki</h2>
     </div>
