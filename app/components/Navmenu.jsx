@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaShoppingCart} from "react-icons/fa"
+import {FaShoppingCart,FaSearch , FaHeart} from "react-icons/fa"
 
 const Navbar = () => {
   return (
@@ -20,12 +20,22 @@ const Navbar = () => {
     </ul>
     </div>
 
-    <div className='cart'>
+    <div className='cart flex gap-4'>
          <h2>MY ACCOUNT</h2>
          <h3>3D</h3>
-         <div className='flex'>
+
+         <div className='flex text-2xl'>
          <FaShoppingCart/>
-         <div className='rounded-full bg-red-200 w-2 h-2 relative'>
+         <div className='rounded-full bg-red-200 w-8 h-8 relative'>
+          <div className='absolute'>0</div>
+         </div>
+         </div>
+
+         <FaSearch className='text-2xl'/>
+
+         <div className='flex text-2xl'>
+         <FaHeart/>
+         <div className='rounded-full bg-red-200 w-8 h-8 relative'>
           <div className='absolute'>0</div>
          </div>
          </div>
