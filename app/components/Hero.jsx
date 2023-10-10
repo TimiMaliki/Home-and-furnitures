@@ -29,19 +29,19 @@ const Hero = () => {
 
 <SwiperSlide>
         <div className='grid items-center text-center w-full h-full'>
-        <Image src={Coin} style={{width:"100%", height:"1000px"}}/>
+        <Image src={Coin} style={{width:"100%", height:"900px"}}/>
           </div>
       </SwiperSlide>
 
       <SwiperSlide>
       <div className='grid items-center text-center w-full h-96'>
-        <Image src={Coin} style={{width:"100%", height:"100vh"}}/>
+        <Image src={Coin} style={{width:"100%", height:"900px"}}/>
           </div>
       </SwiperSlide>
 
       <SwiperSlide>
       <div className='grid items-center text-center w-full h-96'>
-        <Image src={Coin} style={{width:"100%", height:"100vh"}}/>
+        <Image src={Coin} style={{width:"100%", height:"900px"}}/>
           </div>
       </SwiperSlide>
 

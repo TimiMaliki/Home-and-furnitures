@@ -7,6 +7,8 @@ import BestSellers from './components/BestSellers'
 import Trending from './components/Trending'
 import NewProduct from './components/NewProduct'
 import BestSofa from './components/BestSofa'
+import WardRobe from './components/WardRobe'
+import PerfectDining from './components/PerfectDining'
 
 
 
@@ -22,6 +24,8 @@ export default function Home() {
     <Trending/>
     <NewProduct />
     <BestSofa/>
+    <WardRobe />
+    <PerfectDining />
    </main>
   )
 }
