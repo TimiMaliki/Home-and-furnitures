@@ -1,47 +1,50 @@
 import React from 'react'
 import {FaShoppingCart,FaSearch , FaHeart} from "react-icons/fa"
 
-const Navbar = () => {
+const NavMenu = () => {
   return (
- <nav className='w-full h-24 p-16 bg-white flex justify-between'>
+ <nav  className='sticky'>
+  <div className='w-full h-24 p-16 bg-white flex justify-between'>
     <div className='Logo'>
      <h2 className='text-black text-4xl'>Maliki</h2>
     </div>
 
     <div className='pages'>
-    <ul className='flex lg:gap-4 cursor-pointer'>
-      <li>Home</li>
-      <li>Blog</li>
-      <li>E-Catalog</li>
-      <li>Shop</li>
-      <li>CSR</li>
-      <li>ShowRoom</li>
-      <li>About Us</li>
+    <ul className='flex lg:gap-4 cursor-pointer text-xl'>
+      <li className='text-red-500'>Home</li>
+      <li className='duration-200 hover:text-red-600'>Blog</li>
+      <li className='duration-200 hover:text-red-600'>E-Catalog</li>
+      <li className='duration-200 hover:text-red-600'>Shop</li>
+      <li className='duration-200 hover:text-red-600'>CSR</li>
+      <li className='duration-200 hover:text-red-600'>ShowRoom</li>
+      <li className='duration-200 hover:text-red-600'>About Us</li>
     </ul>
     </div>
 
-    <div className='cart flex gap-4'>
+    <div className='cart flex  text-lg gap-4 cursor-pointer'>
          <h2>MY ACCOUNT</h2>
          <h3>3D</h3>
 
-         <div className='flex text-2xl'>
-         <FaShoppingCart/>
-         <div className='rounded-full bg-red-200 w-8 h-8 relative'>
-          <div className='absolute'>0</div>
+         <div className='flex text-2xl lg:gap-2'>
+         <FaShoppingCart className='text-gray-400'/>
+         <div className='rounded-full bg-red-200 w-5 h-5 relative'>
+          <div className='absolute text-sm pl-1.5'><p>0</p></div>
          </div>
          </div>
 
          <FaSearch className='text-2xl'/>
 
          <div className='flex text-2xl'>
-         <FaHeart/>
-         <div className='rounded-full bg-red-200 w-8 h-8 relative'>
-          <div className='absolute'>0</div>
+         <FaHeart className='text-gray-400'/>
+         <div className='rounded-full bg-red-200  w-5 h-5  relative -mt-3 lg:-translate-x-2'>
+          <div className='absolute text-sm pl-1.5 '><p>0</p></div>
          </div>
          </div>
+
+    </div>
     </div>
  </nav>
   )
 }
 
-export default Navbar
+export default NavMenu
