@@ -6,6 +6,7 @@ import Rooms from './components/Rooms'
 import BestSellers from './components/BestSellers'
 import Trending from './components/Trending'
 import NewProduct from './components/NewProduct'
+import BestSofa from './components/BestSofa'
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
     <BestSellers/>
     <Trending/>
     <NewProduct />
+    <BestSofa/>
    </main>
   )
 }

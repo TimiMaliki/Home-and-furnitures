@@ -13,7 +13,7 @@ import 'swiper/css/scrollbar';
 
 const Hero = () => {
   return (
-    <div className='w-full h-full'>
+    <div className=''>
     <Swiper
    spaceBetween={30}
    hashNavigation={{
