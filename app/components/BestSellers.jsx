@@ -18,7 +18,7 @@ const BestSellers = () => {
   return (
     <div className='px-20  w-full h-full '>
     <div className='w-30 h-26  items-center text-center '>
-          <h2 className='text-lg font-black text-3xl mb-4'>BEST SELLER</h2>
+          <h2 className='text-lg font-black text-3xl mt-2  mb-4'>BEST SELLER</h2>
         </div>
   
         <Swiper

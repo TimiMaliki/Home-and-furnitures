@@ -12,7 +12,7 @@ const NewProduct = () => {
   return (
     <div className="px-20  w-full h-full ">
       <div className="w-30 h-26 mt-20 items-center text-center ">
-        <h2 className="text-lg font-black text-3xl mb-4">NewProduct</h2>
+        <h2 className="text-xl font-black text-3xl mb-4">NewProduct</h2>
       </div>
 
       <Swiper
@@ -28,7 +28,7 @@ const NewProduct = () => {
           <div className="grid items-center text-center w-full h-96">
             <Image src={Coin} width={300} height={300} />
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-lg mt-2">NEW</p>
+              <p className="text-sm mt-2 text-white">NEW</p>
             </div>
             <h2>Royal Office Furniture</h2>
             <p>Office Furniture</p>
@@ -40,7 +40,7 @@ const NewProduct = () => {
           <div className="grid items-center text-center w-full h-96">
             <Image src={Coin} width={300} height={300} />
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-lg mt-2">NEW</p>
+              <p className="text-sm mt-2 text-white">NEW</p>
             </div>
             <h2>Asya Sofa set-Tripple</h2>
             <p>SOFA SET</p>
@@ -52,7 +52,7 @@ const NewProduct = () => {
           <div className="grid items-center text-center w-full h-96">
             <Image src={Coin} width={300} height={300} />
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-lg mt-2">NEW</p>
+              <p className="text-sm mt-2 text-white">NEW</p>
             </div>
             <h2>Angel Dining Room Set</h2>
             <p>Dining Room Set</p>
@@ -64,7 +64,7 @@ const NewProduct = () => {
           <div className="grid items-center text-center w-full h-96">
             <Image src={Coin} width={300} height={300} />
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-lg mt-2">NEW</p>
+              <p className="text-sm mt-2 text-white">NEW</p>
             </div>
             <h2>Picaz Corner Set</h2>
             <p>SOFA SET</p>
@@ -76,7 +76,7 @@ const NewProduct = () => {
           <div className="grid items-center text-center w-full h-96">
             <Image src={Coin} width={300} height={300} />
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-lg mt-2">NEW</p>
+              <p className="text-sm mt-2 text-white">NEW</p>
             </div>
             <h2>SIRIUS Dining Set</h2>
             <p>Dining Room Set</p>
@@ -88,7 +88,7 @@ const NewProduct = () => {
           <div className="grid items-center text-center w-full h-96">
             <Image src={Coin} width={300} height={300} />
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-lg mt-2">NEW</p>
+              <p className="text-sm mt-2 text-white">NEW</p>
             </div>
             <h2>Natural Dining Set</h2>
             <p>Dining Room Set</p>
