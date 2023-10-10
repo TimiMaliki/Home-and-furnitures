@@ -1,10 +1,13 @@
+import UpperNavbar from './components/UpperNavbar'
+import Navmenu from "./components/Navmenu"
 
-import Navbar from './components/Navbar'
+
 
 export default function Home() {
   return (
    <main>
-    <Navbar />
+    <UpperNavbar />
+    <Navmenu />
    </main>
   )
 }

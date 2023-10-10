@@ -1,9 +1,9 @@
 import React from 'react'
-import {FaFacebook,FaTwitter,FaInstagram,FaYoutube,FaTiktok,FaLinkedin,FaLinkedinIn} from "react-icons/fa"
+import {FaFacebook,FaTwitter,FaInstagram,FaYoutube,FaTiktok,FaLinkedinIn} from "react-icons/fa"
 
 const Navbar = () => {
   return (
-   <nav className='w-full h-40 bg-black'>
+   <nav>
    <div className='socials bg-gray-800 w-full h-10 flex  justify-between'>
         <div className='logo-Text lg:pl-8 pt-2 text-white visible sm:invisible md:visible lg:visible'>
           <h2>THINK HOME, THINK VENTO</h2>
