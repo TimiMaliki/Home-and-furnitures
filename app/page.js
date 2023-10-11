@@ -11,6 +11,7 @@ import WardRobe from './components/WardRobe'
 import PerfectDining from './components/PerfectDining'
 import BuyerTrust from './components/BuyerTrust'
 import  Services  from "./components/Services"
+import Subscription from './components/Subscription'
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
     <PerfectDining />
     <BuyerTrust/>
     <Services/>
+    <Subscription/>
    </main>
   )
 }
