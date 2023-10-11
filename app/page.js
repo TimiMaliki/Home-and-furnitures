@@ -12,6 +12,7 @@ import PerfectDining from './components/PerfectDining'
 import BuyerTrust from './components/BuyerTrust'
 import  Services  from "./components/Services"
 import Subscription from './components/Subscription'
+import Footer from './components/Footer'
 
 
 
@@ -32,6 +33,7 @@ export default function Home() {
     <BuyerTrust/>
     <Services/>
     <Subscription/>
+    <Footer />
    </main>
   )
 }
