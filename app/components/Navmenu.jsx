@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import {FaShoppingCart,FaSearch , FaHeart} from "react-icons/fa"
 
@@ -11,13 +12,18 @@ const NavMenu = () => {
 
     <div className='pages'>
     <ul className='flex lg:gap-4 cursor-pointer text-xl'>
-      <li className='text-red-500'>Home</li>
-      <li className='duration-200 hover:text-red-600'>Blog</li>
-      <li className='duration-200 hover:text-red-600'>E-Catalog</li>
-      <li className='duration-200 hover:text-red-600'>Shop</li>
-      <li className='duration-200 hover:text-red-600'>CSR</li>
-      <li className='duration-200 hover:text-red-600'>ShowRoom</li>
-      <li className='duration-200 hover:text-red-600'>About Us</li>
+     <Link href="/"> <li className='text-red-500'>Home</li></Link>
+     <Link href="/pages/blog"> <li className='duration-200 hover:text-red-600'>Blog</li></Link>
+     <Link href=""> <li className='duration-200 hover:text-red-600'>E-Catalog</li></Link>
+     <Link href=""> <li className='duration-200 hover:text-red-600'>Shop</li></Link>
+     <Link href=""><li className='duration-200 hover:text-red-600'>CSR</li></Link>
+     <Link href="">  <li className='duration-200 hover:text-red-600'>ShowRoom</li></Link>
+     <Link href=""> <li className='duration-200 hover:text-red-600'>About Us</li></Link>
+    
+     
+     
+    
+     
     </ul>
     </div>
 
