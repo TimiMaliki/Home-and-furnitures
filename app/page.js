@@ -10,6 +10,7 @@ import BestSofa from './components/BestSofa'
 import WardRobe from './components/WardRobe'
 import PerfectDining from './components/PerfectDining'
 import BuyerTrust from './components/BuyerTrust'
+import  Services  from "./components/Services"
 
 
 
@@ -28,6 +29,7 @@ export default function Home() {
     <WardRobe />
     <PerfectDining />
     <BuyerTrust/>
+    <Services/>
    </main>
   )
 }
