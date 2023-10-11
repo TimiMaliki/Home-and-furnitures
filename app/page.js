@@ -9,6 +9,7 @@ import NewProduct from './components/NewProduct'
 import BestSofa from './components/BestSofa'
 import WardRobe from './components/WardRobe'
 import PerfectDining from './components/PerfectDining'
+import BuyerTrust from './components/BuyerTrust'
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
     <BestSofa/>
     <WardRobe />
     <PerfectDining />
+    <BuyerTrust/>
    </main>
   )
 }
