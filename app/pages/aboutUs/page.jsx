@@ -67,7 +67,10 @@ Vento Furniture also continues its efforts to increase its market share with the
 
 </div>
 
-<div className='border border-gray-200  w-full  mb-2'></div>
+<div className=''>
+  <div className='border border-gray-200  w-4/5 ml-20  mb-2'></div>
+  </div>
+
 
 <div className='flex justify-center gap-4 text-xl p-20'>
   <h2>Socials</h2>
