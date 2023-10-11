@@ -1,5 +1,4 @@
-import UpperNavbar from './components/UpperNavbar'
-import Navmenu from "./components/Navmenu"
+
 import Hero from './components/Hero'
 import FurnituresCollection from './components/FurnituresCollection'
 import Rooms from './components/Rooms'
@@ -12,16 +11,13 @@ import PerfectDining from './components/PerfectDining'
 import BuyerTrust from './components/BuyerTrust'
 import  Services  from "./components/Services"
 import Subscription from './components/Subscription'
-import Footer from './components/Footer'
-import CopyRight from './components/CopyRight'
+
 
 
 
 export default function Home() {
   return (
    <main>
-    <UpperNavbar />
-    <Navmenu />
     <Hero />
     <FurnituresCollection />
     <Rooms />
@@ -34,8 +30,6 @@ export default function Home() {
     <BuyerTrust/>
     <Services/>
     <Subscription/>
-    <Footer />
-    <CopyRight />
    </main>
   )
 }
