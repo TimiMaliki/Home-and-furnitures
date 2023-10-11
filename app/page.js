@@ -13,6 +13,7 @@ import BuyerTrust from './components/BuyerTrust'
 import  Services  from "./components/Services"
 import Subscription from './components/Subscription'
 import Footer from './components/Footer'
+import CopyRight from './components/CopyRight'
 
 
 
@@ -34,6 +35,7 @@ export default function Home() {
     <Services/>
     <Subscription/>
     <Footer />
+    <CopyRight />
    </main>
   )
 }
