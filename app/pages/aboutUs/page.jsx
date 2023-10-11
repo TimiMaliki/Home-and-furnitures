@@ -5,7 +5,7 @@ import Subscription from '@/app/components/Subscription';
 
 const blog = () => {
   return (
-    <div className=''>
+    <div>
       <div className=''>
       <div className="grid place-content-center">
       <Image src={Coin} width={"1000px"} height={300} />
