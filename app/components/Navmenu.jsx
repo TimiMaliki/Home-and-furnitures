@@ -13,12 +13,12 @@ const NavMenu = () => {
     <div className='pages'>
     <ul className='flex lg:gap-4 cursor-pointer text-xl'>
      <Link href="/"> <li className='text-red-500'>Home</li></Link>
-     <Link href="/pages/blog"> <li className='duration-200 hover:text-red-600'>Blog</li></Link>
+     <Link href=""> <li className='duration-200 hover:text-red-600'>Blog</li></Link>
      <Link href=""> <li className='duration-200 hover:text-red-600'>E-Catalog</li></Link>
      <Link href=""> <li className='duration-200 hover:text-red-600'>Shop</li></Link>
      <Link href=""><li className='duration-200 hover:text-red-600'>CSR</li></Link>
      <Link href="">  <li className='duration-200 hover:text-red-600'>ShowRoom</li></Link>
-     <Link href=""> <li className='duration-200 hover:text-red-600'>About Us</li></Link>
+     <Link href="/pages/aboutUs"> <li className='duration-200 hover:text-red-600'>About Us</li></Link>
     
      
      
