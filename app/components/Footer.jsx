@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" w-full h-full bg-gray-100 gap-8 grid grid-cols-5  sm:grid-cols-2 md:grid-cols-5  lg:grid-cols-5">
+    <div className=" w-full h-full bg-gray-100 gap-8 grid grid-cols-1 px-20 lg:px-0  sm:grid-cols-2 md:grid-cols-5  lg:grid-cols-5">
       <div className="w-full h-full p-20">
         <h1 className="text-3xl mb-8 text-center">Maliki</h1>
 

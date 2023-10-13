@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 const Trending = () => {
   return (
-    <div className="px-20  w-full h-full ">
+    <div className="lg:px-20  w-full h-full ">
       <div className="w-30 h-26 mt-20 items-center text-center ">
         <h2 className="text-lg font-black text-3xl mb-4">TRENDING PRODUCTS</h2>
       </div>

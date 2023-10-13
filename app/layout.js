@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
         <Navbar/>
         <NavMenu/>
         {children}
-        {/* <Footer/>
-        <CopyRight/> */}
+        <Footer/>
+        <CopyRight/>
         </body>
     </html>
   )

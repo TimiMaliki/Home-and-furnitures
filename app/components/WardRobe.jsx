@@ -4,7 +4,7 @@ import Coin from "../../public/coin.jpg";
 
 const WardRobe = () => {
   return (
-    <div className="grid grid-cols-2 w-full h-full mt-20">
+    <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full mt-20">
 
       <div className="w-full h-full">
         <Image src={Coin} width={400} height={300} />

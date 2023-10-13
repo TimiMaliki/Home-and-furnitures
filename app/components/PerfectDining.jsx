@@ -5,7 +5,7 @@ import Coin from "../../public/coin.jpg";
 
 const PerfectDining = () => {
   return (
-    <div className='grid grid-cols-2 w-full h-full mt-20'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 w-full h-full mt-20'>
 
          <div className='w-full h-full text-start px-20'>
           <h1 className='text-gray-300 font-light text-xl mb-4'>Sofa chair</h1>
