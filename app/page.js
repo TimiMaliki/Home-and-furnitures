@@ -18,8 +18,8 @@ import Subscription from './components/Subscription'
 export default function Home() {
   return (
    <main>
-    <Hero />
-    <FurnituresCollection />
+ <Hero />
+     {/*   <FurnituresCollection />
     <Rooms />
     <BestSellers/>
     <Trending/>
@@ -29,7 +29,7 @@ export default function Home() {
     <PerfectDining />
     <BuyerTrust/>
     <Services/>
-    <Subscription/>
+    <Subscription/> */}
    </main>
   )
 }

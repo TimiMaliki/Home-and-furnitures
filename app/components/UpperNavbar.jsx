@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
    <nav>
    <div className='socials bg-gray-800 w-full h-10 flex   justify-between'>
-        <div className='logo-Text lg:pl-8 pt-2 text-white visible sm:invisible md:visible lg:visible'>
+        <div className='logo-Text lg:pl-8 pt-2 text-white visible sm:invisible lg:visible lg:visible'>
           <h2>THINK HOME, THINK VENTO</h2>
         </div>
 
