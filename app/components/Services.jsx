@@ -40,7 +40,7 @@ const Services = () => {
         <SwiperSlide>
           <div className="grid place-content-center">
             <Image src={BestQuality} width={50} className="mb-4" />
-            <h1 className="text-3xl mb-4">Fast Delivery</h1>
+            <h1 className="lg:text-3xl mb-4">Fast Delivery</h1>
             <p className=" text-md lg:text-lg w-32 lg:w-80  lg:h-32">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
               ipsum nam dolores!
@@ -51,7 +51,7 @@ const Services = () => {
         <SwiperSlide>
           <div className="grid place-content-center">
             <Image src={Install} width={50} className="mb-4" />
-            <h1 className="text-3xl mb-4">Fast Delivery</h1>
+            <h1 className="lg:text-3xl mb-4">Fast Delivery</h1>
             <p className=" text-md lg:text-lg w-32 lg:w-80  h-32">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
               ipsum nam dolores!
