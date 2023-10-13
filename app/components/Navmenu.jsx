@@ -9,13 +9,13 @@ const NavMenu = () => {
   return (
     <nav className="shadow-2xl w-full">
       <div className="w-full h-44  px-32   items-center lg:items-center lg:flex lg:justify-between">
-        <div className="Logo mt-10 lg:mt-0">
+        <div className="Logo mt-10 -ml-10 lg:ml-0 lg:mt-0">
           <h2 className="text-black text-4xl">Maliki</h2>
         </div>
 
         <div
           onClick={() => setOpen(!open)}
-          className=" w-7 h-7  absolute top-10 left-5 md:hidden cursor-pointer"
+          className=" w-7 h-7  absolute top-20 left-5 md:hidden cursor-pointer"
         >
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>
@@ -23,7 +23,7 @@ const NavMenu = () => {
         <div className="pages">
           <ul
             className={`  grid absolute cursor-pointer  sm:text-md lg:text-xl lg:flex lg:gap-4 left-4 lg:static ${
-              open ? "top-16" : "top-[-490px]"
+              open ? "top-28" : "top-[-490px]"
             }`}
           >
             <Link href="/">
@@ -47,7 +47,7 @@ const NavMenu = () => {
           </ul>
         </div>
 
-        <div className="cart flex  items-center justify-center gap-4 cursor-pointer -ml-12 mt-4 text-xs sm:text-sm lg:text-xl  lg:mt-0  lg:-ml-0 ">
+        <div className="cart grid items-center justify-center cursor-pointer ml-40 -mt-8 lg:mt-0 text-xs gap-1 lg:gap-4  lg:flex  sm:text-sm lg:text-xl  lg:mt-0  lg:-ml-0 ">
           <h2 className="text-xs sm:text-sm lg:text-xl">MY ACCOUNT</h2>
           <h3 className="text-xs sm:text-sm lg:text-xl">3D</h3>
 

@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const blog = () => {
   return (
-    <div>
+    <div className="">
       <div className="w-full h-64 relative">
       <WaveSvg />
 
