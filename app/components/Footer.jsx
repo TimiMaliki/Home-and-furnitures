@@ -1,4 +1,9 @@
 import React from "react";
+import facebook from "../../public/aboutUs-Img/facebook-1-768x768.png"
+import Instagram from "../../public/aboutUs-Img/instagram-1-768x768.png"
+import twitter from "../../public/aboutUs-Img/twitter-1-768x768.png"
+import youtube from "../../public/aboutUs-Img/youtube-1-768x768.png"
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,10 +12,10 @@ const Footer = () => {
         <h1 className="text-3xl mb-8 text-center">Maliki</h1>
 
         <div className="flex gap-4 justify-center mb-4">
-          <h2>Logo</h2>
-          <h2>Logo</h2>
-          <h2>Logo</h2>
-          <h2>Logo</h2>
+         <Image  src={facebook} width={50}/>
+         <Image  src={Instagram} width={50}/>
+         <Image  src={twitter} width={50}/>
+         <Image  src={youtube} width={50}/>
         </div>
 
         <h1 className="text-lg text-center mb-8">FURNITURE CATEGORY</h1>
