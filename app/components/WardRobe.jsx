@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Coin from "../../public/coin.jpg";
+import WardDrobe from "../../public/home-Img/GOLDEN-CREAM-BEDROOM-SET-2_2_11zon-1.jpg";
 
 const WardRobe = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full mt-20">
 
       <div className="w-full h-full">
-        <Image src={Coin} width={400} height={300} />
+        <Image src={WardDrobe} width={700} height={300} />
       </div>
 
       <div className='w-full h-full text-start px-20'>

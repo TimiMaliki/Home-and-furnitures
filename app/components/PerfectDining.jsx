@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import Coin from "../../public/coin.jpg";
+import Dinner from "../../public/home-Img/Sirius-Yemek-2-kopya-1.png"
 
 
 const PerfectDining = () => {
@@ -19,7 +19,7 @@ const PerfectDining = () => {
          </div>
 
          <div className='w-full h-full'>
-          <Image src={Coin} width={400} height={300}/>
+          <Image src={Dinner} width={600} height={300}/>
          </div>
     </div>
   )

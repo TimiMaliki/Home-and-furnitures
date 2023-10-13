@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import Coin from "../../public/coin.jpg";
+import Sofa from "../../public/home-Img/FUBA-KOSE-KOLTUK-2.jpg";
 
 const BestSofa = () => {
   return (
@@ -18,7 +18,7 @@ const BestSofa = () => {
          </div>
 
          <div className='w-full h-full'>
-          <Image src={Coin} width={400} height={300}/>
+          <Image src={Sofa} width={700} height={300}/>
          </div>
     </div>
   )
