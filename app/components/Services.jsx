@@ -16,7 +16,7 @@ import "swiper/css/scrollbar";
 
 const Services = () => {
   return (
-    <div className="lg:flex items-center gap-2  justify-between lg:px-20">
+    <div className="lg:flex items-center  gap-0 lg:gap-2  justify-between px-0 lg:px-20">
       <Swiper
         slidesPerView={2}
         spaceBetween={30}
@@ -30,7 +30,7 @@ const Services = () => {
           <div className="grid place-content-center ">
             <Image src={FastDelivery} width={50} className="mb-4" />
             <h1 className="lg:text-3xl mb-4 ">Fast Delivery</h1>
-            <p className=" text-md lg:text-lg w-40 lg:w-80 h-32">
+            <p className=" text-md lg:text-lg w-32 lg:w-80 h-32 lg:h-32">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
               ipsum nam dolores!
             </p>
@@ -41,7 +41,7 @@ const Services = () => {
           <div className="grid place-content-center">
             <Image src={BestQuality} width={50} className="mb-4" />
             <h1 className="text-3xl mb-4">Fast Delivery</h1>
-            <p className=" text-md lg:text-lg w-40 lg:w-80 h-32">
+            <p className=" text-md lg:text-lg w-32 lg:w-80  lg:h-32">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
               ipsum nam dolores!
             </p>
@@ -52,7 +52,7 @@ const Services = () => {
           <div className="grid place-content-center">
             <Image src={Install} width={50} className="mb-4" />
             <h1 className="text-3xl mb-4">Fast Delivery</h1>
-            <p className=" text-md lg:text-lg w-40 lg:w-80 h-32">
+            <p className=" text-md lg:text-lg w-32 lg:w-80  h-32">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
               ipsum nam dolores!
             </p>
