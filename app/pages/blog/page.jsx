@@ -19,7 +19,7 @@ const page = () => {
         
         <div className="relative">
           <Image src={banner} className="w-full h-48 object-cover" />
-          <div className="absolute top-0 mt-16 grid left-1/2">
+          <div className="absolute top-0 mt-16 grid left-1/2 lg:left-1/2">
           <h1 className="text-gray-50 font-extrabold text-5xl left-64">
             Blog
           </h1>
@@ -29,18 +29,18 @@ const page = () => {
       
 
       {/* card-one */}
-      <div className="p-20 mt-20 w-full h-full  columns-3 gap-8">
-        <div className="card w-full  rounded">
+      <div className="p-20 mt-20 w-full h-full gap-8 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={StyleWoman} className="w-[700px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute left-32 -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+              <Image src={StyleWoman} className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -48,8 +48,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -60,23 +59,25 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
 
-        <div className="card w-full rounded">
+
+          {/* cardtwo */}
+
+          <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={manWoman} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute  lg:ml-20 -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+              <Image src={manWoman}  className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -84,8 +85,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -96,23 +96,23 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
 
-        <div className="card w-full  rounded">
+          {/* cardthree */}
+          <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={funiture} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute  lg:ml-20  -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+              <Image src={Type} className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -120,8 +120,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -132,26 +131,29 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
       </div>
 
-      {/* card-two  */}
-      <div className="p-20 mt-20 w-full h-full  columns-3  gap-8">
-        <div className="card w-full  rounded">
+
+
+    
+
+      {/* card-two */}
+      <div className="p-20 mt-20 w-full h-full gap-8 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
-            <div className="image-body bg-black">
-              <Image src={Dinner} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute lg:ml-20  -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+            <div className="image-body ">
+              <Image src={Dinner} className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -159,8 +161,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -171,24 +172,25 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
-           
           </div>
-        </div>
 
-        <div className="card w-full rounded">
+
+          {/* cardtwo */}
+
+          <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
-            <div className="image-body bg-black">
-              <Image src={Type} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute lg:ml-20 -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+            <div className="image-body ">
+              <Image src={funiture} className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -196,8 +198,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -208,23 +209,23 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
 
-        <div className="card w-full  rounded">
+          {/* cardthree */}
+          <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
-            <div className="image-body bg-black">
-              <Image src={TypeColor} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute lg:ml-20  -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+            <div className="image-body ">
+              <Image src={TypeColor}  className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -232,8 +233,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -244,27 +244,27 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
       </div>
 
-     {/* card-three */}
 
-     <div className="p-20 mt-20 w-full h-full  columns-3 gap-8">
-        <div className="card w-full  rounded">
+
+ {/* card-three */}
+ <div className="p-20 mt-20 w-full h-full gap-8 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
-            <div className="image-body bg-black">
-              <Image src={Tradition } className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute lg:ml-20  -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+            <div className="image-body ">
+              <Image src={Tradition }  className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -272,8 +272,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-            <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -284,23 +283,25 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
 
-        <div className="card w-full rounded">
+
+          {/* cardtwo */}
+
+          <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
-            <div className="image-body bg-black">
-              <Image src={Colors} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute  lg:ml-20  -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+            <div className="image-body ">
+              <Image src={Colors} className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -308,8 +309,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -320,23 +320,23 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
 
-        <div className="card w-full  rounded">
+          {/* cardthree */}
+          <div className="card w-full  h-full rounded">
           {/* card-image-body */}
           <div className="card-image">
-            <div className="image-body bg-black">
-              <Image src={Niger} className="w-[500px] h-48 object-cover" />
-              <div className="lg:w-64 h-8 rounded absolute lg:ml-20  -mt-2 text-white text-sm bg-red-800 text-center">
-                <h2>Furnitures,Design trends</h2>
+            <div className="image-body ">
+              <Image src={Niger}  className="lg:w-[700px] h-48 object-cover" />
+              <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
+                <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
             </div>
 
-            <div className="w-16 h-16 ml-4  -mt-44 absolute  bg-gray-300 rounded">
+            <div className="sm:w-12 sm:h-12 lg:w-16 lg:h-16 lg:ml-4  -mt-44 absolute  bg-gray-300 rounded">
               <div className="grid place-content-center">
                 <h2>18</h2>
                 <h1>Sept</h1>
@@ -344,8 +344,7 @@ const page = () => {
             </div>
           </div>
           {/* card-body */}
-          <div className="card-body grid place-content-center p-20 h-80 border border-gray-300 ">
-          <h2 className="font-extrabold text-2xl mt-2">
+          <h2 className="font-extrabold text-sm sm:text-lg md:text-xl lg:text-2xl mt-2">
               Sitting in Style: Exotic Chairs for Every Room
             </h2>
             <div className="flex justify-center gap-8 mb-4">
@@ -356,12 +355,13 @@ const page = () => {
               designing (and shopping for) chairs to go in them. And...
             </p>
 
-            <h1 className="text-xl font-bold text-red-800">
+            <h1 className="lg:text-xl font-bold text-red-800">
               CONTINUE READING...
             </h1>
           </div>
-        </div>
       </div>
+
+
     
 
     </div>
@@ -369,3 +369,7 @@ const page = () => {
 };
 
 export default page;
+
+
+
+

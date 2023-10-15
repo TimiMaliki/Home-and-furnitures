@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { FaShoppingCart, FaSearch, FaHeart } from "react-icons/fa";
-import   ventoBanner from "../../public/home-Img/logo-black.png"
+import ventoBanner from "../../public/home-Img/logo-black.png";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -12,7 +12,7 @@ const NavMenu = () => {
     <nav className="shadow-2xl w-full">
       <div className="w-full h-44  px-32   items-center lg:items-center lg:flex lg:justify-between">
         <div className="Logo mt-10 -ml-10 lg:ml-0 lg:mt-0">
-          <Image src={ventoBanner} width={100}/>
+          <Image src={ventoBanner} width={100} />
         </div>
 
         <div

@@ -3,13 +3,14 @@ import facebook from "../../public/aboutUs-Img/facebook-1-768x768.png"
 import Instagram from "../../public/aboutUs-Img/instagram-1-768x768.png"
 import twitter from "../../public/aboutUs-Img/twitter-1-768x768.png"
 import youtube from "../../public/aboutUs-Img/youtube-1-768x768.png"
+import   ventoBanner from "../../public/home-Img/logo-black.png"
 import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className=" w-full h-full bg-gray-100 gap-8 grid grid-cols-1 px-20 lg:px-0  sm:grid-cols-2 md:grid-cols-5  lg:grid-cols-5">
       <div className="w-full h-full p-20">
-        <h1 className="text-3xl mb-8 text-center">Maliki</h1>
+      <Image src={ventoBanner} width={100}  className="mb-8"/>
 
         <div className="flex gap-4 justify-center mb-4">
          <Image  src={facebook} width={50}/>
