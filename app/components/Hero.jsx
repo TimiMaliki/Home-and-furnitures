@@ -28,8 +28,14 @@ const Hero = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-full">
-            <Image src={woodenImg} style={{ width: "100%", height: "900px" }} />
+          <div className="grid items-center text-center w-full h-full relative">
+            <Image src={woodenImg} style={{ width: "100%", height: "900px" }}  />
+            <div className="lg:-translate-y-[40rem] lg:mr-[30rem] lg:text-6xl font-extrabold text-white">
+              <h1 className="mb-8">WOODEN BEDROOM SET</h1>
+              <p className="mb-8  lg:text-xl">
+             Every Detail has been carefully considered for your comfort
+              </p>
+              </div>
           </div>
         </SwiperSlide>
 
@@ -39,12 +45,25 @@ const Hero = () => {
               src={NaturalImg}
               style={{ width: "100%", height: "900px" }}
             />
+            <div className="lg:-translate-y-[40rem] lg:mr-[45rem] lg:text-4xl font-extrabold text-white ">
+              <h1 className="mb-8">Furniture Collection 2023</h1>
+              <p className="mb-8  lg:text-6xl">
+                Natural Dinning Set
+              </p>
+              </div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
             <Image src={picazoImg} style={{ width: "100%", height: "900px" }} />
+            <div className="lg:-translate-y-[40rem] lg:mr-[30rem]  font-extrabold text-white ">
+              <h1 className="mb-8 lg:text-xl">NEW ARRIVALS COLLECTION  2023</h1>
+              <p className="mb-8  lg:text-6xl">
+                MODERN FURNITURES
+              </p>
+              <p>A Contemporary master pieces</p>
+              </div>
           </div>
         </SwiperSlide>
       </Swiper>
