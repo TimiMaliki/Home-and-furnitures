@@ -32,7 +32,7 @@ const Trending = () => {
       >
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Okide} width={380} height={300} className="rounded-lg"/>
+            <Image src={Okide} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-lg mt-2 text-white">Hot</p>
             </div>
@@ -44,7 +44,7 @@ const Trending = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Diamond} width={380} height={300} className="rounded-lg"/>
+            <Image src={Diamond} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-lg mt-2 text-white">Hot</p>
             </div>
@@ -56,7 +56,7 @@ const Trending = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Lofa} width={380} height={300} className="rounded-lg"/>
+            <Image src={Lofa} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-lg mt-2 text-white">Hot</p>
             </div>
@@ -68,7 +68,7 @@ const Trending = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Seeda} width={380} height={300} className="rounded-lg"/>
+            <Image src={Seeda} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-lg mt-2 text-white">Hot</p>
             </div>
@@ -80,7 +80,7 @@ const Trending = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Bianca} width={380} height={300} className="rounded-lg"/>
+            <Image src={Bianca} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-lg mt-2 text-white">Hot</p>
             </div>
@@ -92,7 +92,7 @@ const Trending = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Monza} width={380} height={300} className="rounded-lg" />
+            <Image src={Monza} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-lg mt-2 text-white">Hot</p>
             </div>

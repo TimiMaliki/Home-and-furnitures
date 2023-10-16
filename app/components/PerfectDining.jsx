@@ -27,7 +27,7 @@ const PerfectDining = () => {
          </div>
 
          <div className='w-full h-full' data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-          <Image src={Dinner} width={600} height={300}/>
+          <Image src={Dinner} width={600} height={300} alt="..."/>
          </div>
     </div>
   )

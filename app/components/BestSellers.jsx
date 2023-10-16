@@ -40,7 +40,7 @@ const BestSellers = () => {
   
         <SwiperSlide>
           <div className='grid items-center text-center w-full h-96'>
-          <Image src={Royal} width={380} height={300} className='rounded-lg'/>
+          <Image src={Royal} width={380} height={300} className='rounded-lg' alt="..."/>
           <h2>Royal Office Furniture</h2>
            <p>Office Furniture</p>
            <p className='text-red-500 -mt-8'>₦3,100,745,00</p>
@@ -49,7 +49,7 @@ const BestSellers = () => {
   
         <SwiperSlide>
         <div className='grid items-center text-center w-full h-96'>
-          <Image src={Angel} width={380} height={300} className='rounded-lg'/>
+          <Image src={Angel} width={380} height={300} className='rounded-lg' alt="..."/>
           <h2>Asya Sofa set-Tripple</h2>
            <p>SOFA SET</p>
            <p className='text-red-500 -mt-8'>₦1,280,999.00</p>
@@ -58,7 +58,7 @@ const BestSellers = () => {
   
         <SwiperSlide>
         <div className='grid items-center text-center w-full h-96'>
-          <Image src={picazo } width={380} height={300} className='rounded-lg'/>
+          <Image src={picazo } width={380} height={300} className='rounded-lg' alt="..."/>
           <h2>Angel Dining Room Set</h2>
            <p>Dining Room Set</p>
            <p className='text-red-500 -mt-8'>₦4,916,999.00</p>
@@ -68,7 +68,7 @@ const BestSellers = () => {
        
         <SwiperSlide>
         <div className='grid items-center text-center w-full h-96'>
-          <Image src={sirius} width={380} height={300} className='rounded-lg'/>
+          <Image src={sirius} width={380} height={300} className='rounded-lg' alt="..."/>
           <h2>Picaz Corner Set</h2>
            <p>SOFA SET</p>
            <p className='text-red-500 -mt-8'>₦1,280,999.00 - ₦4,916,999.00</p>
@@ -77,7 +77,7 @@ const BestSellers = () => {
   
         <SwiperSlide>
         <div className='grid items-center text-center w-full h-96'>
-          <Image src={Natura} width={380} height={300} className='rounded-lg'/>
+          <Image src={Natura} width={380} height={300} className='rounded-lg' alt="..."/>
           <h2>SIRIUS Dining  Set</h2>
            <p>Dining Room Set</p>
            <p className='text-red-500 -mt-8'>₦5,002,999.00</p>
@@ -86,7 +86,7 @@ const BestSellers = () => {
   
         <SwiperSlide>
         <div className='grid items-center text-center w-full h-96 '>
-          <Image src={Estilo } width={380} height={300} className='rounded-lg'/>
+          <Image src={Estilo } width={380} height={300} className='rounded-lg' alt="..."/>
           <h2>Natural Dining  Set</h2>
            <p>Dining Room Set</p>
            <p className='text-red-500 -mt-8'>₦3,545,999.00</p>

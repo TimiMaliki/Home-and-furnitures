@@ -29,7 +29,7 @@ const Rooms = () => {
         <SwiperSlide>
           <div className="grid items-center  text-center w-full h-full ">
             <div className="grid place-content-center">
-              <Image src={roomBench} width={300} height={300} />
+              <Image src={roomBench} width={300} height={300} alt="..."/>
               <p>SOFA SET</p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Rooms = () => {
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
             <div className="grid place-content-center">
-              <Image src={KofaBench} width={300} height={300} />
+              <Image src={KofaBench} width={300} height={300}  alt="..."/>
               <p>SOFA SET</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Rooms = () => {
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
             <div className="grid place-content-center">
-              <Image src={cornerBench} width={300} height={300} />
+              <Image src={cornerBench} width={300} height={300} alt="..."/>
               <p>SOFA SET</p>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Rooms = () => {
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
             <div className="grid place-content-center">
-              <Image src={zeroBench} width={300} height={300} />
+              <Image src={zeroBench} width={300} height={300} alt="..."/>
               <p>SOFA SET</p>
             </div>
           </div>

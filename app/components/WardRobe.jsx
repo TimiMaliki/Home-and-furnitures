@@ -14,7 +14,7 @@ const WardRobe = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full mt-20 overflow-hidden">
 
       <div className="w-full h-full"  data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-        <Image src={WardDrobe} width={700} height={300} />
+        <Image src={WardDrobe} width={700} height={300} alt="..."/>
       </div>
 
       <div className='w-full h-full text-start px-20' data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">

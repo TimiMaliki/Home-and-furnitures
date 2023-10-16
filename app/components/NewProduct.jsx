@@ -1,7 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import Coin from "../../public/coin.jpg";
 import Wooden from "../../public/home-Img/WOODEN-CENTER-TABLE-5KAPAK_11zon-768x432.webp"
 import Salon from "../../public/home-Img/salon-perde-modelleri-2014.jpg"
 import Royal from "../../public/home-Img/SALTANAT-ROYAL-DINING-SET-jpg.webp"
@@ -32,7 +31,7 @@ const NewProduct = () => {
       >
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Wooden} width={380} height={300} className="rounded-lg"/>
+            <Image src={Wooden} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-sm mt-2 text-white">NEW</p>
             </div>
@@ -44,7 +43,7 @@ const NewProduct = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Salon} width={380} height={300} className="rounded-lg"/>
+            <Image src={Salon} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-sm mt-2 text-white">NEW</p>
             </div>
@@ -56,7 +55,7 @@ const NewProduct = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Royal} width={380} height={300} className="rounded-lg"/>
+            <Image src={Royal} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-sm mt-2 text-white">NEW</p>
             </div>
@@ -68,7 +67,7 @@ const NewProduct = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Brown} width={380} height={300} className="rounded-lg"/>
+            <Image src={Brown} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-sm mt-2 text-white">NEW</p>
             </div>
@@ -80,7 +79,7 @@ const NewProduct = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Dark} width={380} height={300} className="rounded-lg"/>
+            <Image src={Dark} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-sm mt-2 text-white">NEW</p>
             </div>
@@ -92,7 +91,7 @@ const NewProduct = () => {
 
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-96">
-            <Image src={Okie} width={380} height={300} className="rounded-lg"/>
+            <Image src={Okie} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-sm mt-2 text-white">NEW</p>
             </div>

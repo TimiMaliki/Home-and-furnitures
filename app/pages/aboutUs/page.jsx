@@ -18,7 +18,7 @@ const blog = () => {
       <div className="w-full h-64 relative">
         <WaveSvg />
 
-        <Image src={banner} className="w-full h-full object-cover " />
+        <Image src={banner} className="w-full h-full object-cover "  alt="..."/>
         <div className="absolute top-0  lg:left-24 mt-16">
           <h1 className="text-center text-white lg:text-5xl font-extrabold">
             We are a Luxury Furniture Manufacturing Brand with the vision of
@@ -32,6 +32,7 @@ const blog = () => {
           <Image
             src={VentoImg}
             className="absolute  w-full h-full  rounded-lg "
+            alt="..."
           />
         </div>
       </div>

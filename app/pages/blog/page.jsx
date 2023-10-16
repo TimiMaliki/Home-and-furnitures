@@ -18,7 +18,7 @@ const page = () => {
     <div className="w-full h-full">
         
         <div className="relative">
-          <Image src={banner} className="w-full h-48 object-cover" />
+          <Image src={banner} className="w-full h-48 object-cover" alt="..."/>
           <div className="absolute top-0 mt-16 grid left-1/2 lg:left-1/2">
           <h1 className="text-gray-50 font-extrabold text-5xl left-64">
             Blog
@@ -34,7 +34,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={StyleWoman} className="lg:w-[700px] h-48 object-cover" />
+              <Image src={StyleWoman} className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -71,7 +71,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={manWoman}  className="lg:w-[700px] h-48 object-cover" />
+              <Image src={manWoman}  className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -106,7 +106,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={Type} className="lg:w-[700px] h-48 object-cover" />
+              <Image src={Type} className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -147,7 +147,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={Dinner} className="lg:w-[700px] h-48 object-cover" />
+              <Image src={Dinner} className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -184,7 +184,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={funiture} className="lg:w-[700px] h-48 object-cover" />
+              <Image src={funiture} className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -219,7 +219,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={TypeColor}  className="lg:w-[700px] h-48 object-cover" />
+              <Image src={TypeColor}  className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -258,7 +258,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={Tradition }  className="lg:w-[700px] h-48 object-cover" />
+              <Image src={Tradition }  className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -295,7 +295,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={Colors} className="lg:w-[700px] h-48 object-cover" />
+              <Image src={Colors} className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
@@ -330,7 +330,7 @@ const page = () => {
           {/* card-image-body */}
           <div className="card-image">
             <div className="image-body ">
-              <Image src={Niger}  className="lg:w-[700px] h-48 object-cover" />
+              <Image src={Niger}  className="lg:w-[700px] h-48 object-cover" alt="..."/>
               <div className=" w-20 absolute  lg:grid place-content-center  lg:w-64 lg:h-12 rounded  -mt-10 sm:-mt-10 lg:-mt-10 text-white  bg-red-800 text-center">
                 <h2 className="text-sm  lg:text-lg">furniture <br/> Design trends</h2>
               </div>
