@@ -49,7 +49,7 @@ const NavMenu = () => {
           </ul>
         </div>
 
-        <div className="cart grid items-center justify-center cursor-pointer ml-40 -mt-8 lg:mt-0 text-xs gap-1 lg:gap-4  lg:flex  sm:text-sm lg:text-xl  lg:mt-0  lg:-ml-0 ">
+        <div className="cart grid items-center justify-center cursor-pointer ml-40 -mt-8 lg:mt-0 text-xs gap-1 lg:gap-4  lg:flex  sm:text-sm lg:text-xl  lg:mt-0  lg:-ml-0  invisible lg:visible">
           <h2 className="text-xs sm:text-sm lg:text-xl">MY ACCOUNT</h2>
           <h3 className="text-xs sm:text-sm lg:text-xl">3D</h3>
 
