@@ -1,9 +1,17 @@
+'use client'
 import React from 'react'
 import Image from "next/image";
+import  { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Dinner from "../../public/home-Img/Sirius-Yemek-2-kopya-1.png"
 
 
 const PerfectDining = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 w-full h-full mt-20'>
 
