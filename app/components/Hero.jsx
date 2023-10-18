@@ -6,6 +6,7 @@ import woodenImg from "../../public/home-Img/WOODEN-BEDROOM-SET.webp";
 import NaturalImg from "../../public/home-Img/NATURA-DINING-SET-1kapak_1_11zon.jpg.webp";
 import picazoImg from "../../public/home-Img/PICAZ-PICASSO-CORNER-SET-10_10_11zon-1.jpg.webp";
 
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,9 +14,10 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const Hero = () => {
+  
   return (
     <div className="mt-4">
-      <Swiper
+     < Swiper
          spaceBetween={30}
          centeredSlides={true}
          autoplay={{
@@ -28,6 +30,9 @@ const Hero = () => {
          navigation={true}
          modules={[Autoplay, Pagination, Navigation]}
          className="mySwiper"
+
+
+        
       >
         <SwiperSlide>
           <div className="grid items-center text-center w-full h-full relative">
@@ -69,7 +74,7 @@ const Hero = () => {
               </div>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> 
     </div>
   );
 };
