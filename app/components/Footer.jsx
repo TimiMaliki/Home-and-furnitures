@@ -9,14 +9,14 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className=" w-full h-full bg-gray-100 lg:gap-16 grid grid-cols-1 px-5 lg:px-10 lg:px-0  sm:grid-cols-2 md:grid-cols-5  lg:grid-cols-5">
-      <div className="w-full h-44 lg:h-full p-5 lg:p-20">
+      <div className="w-full h-[200px] lg:h-full p-5 lg:p-20">
         <Image src={ventoBanner} width={100} className="mb-8" alt="..." />
 
         <div className="flex gap-4 justify-center mb-4">
-          <Image src={facebook} alt="..." className=" w-[35px] h-[45px] lg:w-[70px] lg:h-[70px]" />
-          <Image src={Instagram} className=" w-[35px] h-[45px] lg:w-[70px] lg:h-[70px]" alt="..." />
-          <Image src={twitter} className=" w-[35px] h-[45px] lg:w-[70px] lg:h-[70px]" alt="..." />
-          <Image src={youtube} className=" w-[35px] h-[45px] lg:w-[70px] lg:h-[70px]" alt="..." />
+          <Image src={facebook} alt="..." className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] " />
+          <Image src={Instagram} className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px]" alt="..." />
+          <Image src={twitter} className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px]" alt="..." />
+          <Image src={youtube} className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px]" alt="..." />
         </div>
 
         <h1 className="text-sm lg:text-lg text-center mb-8">
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full  h-[460px] lg:h-full">
+      <div className="w-full  h-[430px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
         <h1 className="mb-8 font-extrabold cursor-pointer text-xl lg:text-2xl">CANADA</h1>
         <div className="border border-gray-200 mb-10"></div>
