@@ -10,7 +10,7 @@ const BuyerTrust = () => {
         </h2>
 
         <div className="py-20">
-          <h3 className="w-96  text-lg mb-8 text-lg lg:text-xl px-10">
+          <h3 className="w-96  text-sm lg:text-lg mb-8 text-lg lg:text-xl px-10">
             To Vento Furniture, Luxury and Comfort is the hallmark of all our
             products; from our High-Quality Sofa to our contemporary Dining set
             to our uniquely designed tables and chairs, we infuse the hallmark
@@ -18,7 +18,7 @@ const BuyerTrust = () => {
             products.
           </h3>
 
-          <h3 className="w-96  text-lg text-lg lg:text-xl px-10">
+          <h3 className="w-96  text-sm text-lg lg:text-xl px-10">
             Our attention to detail ensures that when you purchase a piece of
             furniture from Vento Furniture, it will provide superior value and
             comfort. Our products are designed with safety in mind as well,
