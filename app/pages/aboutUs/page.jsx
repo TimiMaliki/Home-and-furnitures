@@ -115,7 +115,7 @@ const blog = () => {
         <div className="border border-gray-200  lg:w-4/5 lg:ml-20  mb-2"></div>
       </div>
 
-      <div className="flex justify-center gap-4 lg:text-xl p-20">
+      <div className="flex justify-center gap-4 lg:text-xl p-2 lg:p-20">
         <Link href={""}>
           <FaFacebook size={50} />
         </Link>
