@@ -9,7 +9,7 @@ const Navbar = () => {
           <h2 className='text-sm lg:text-lg invisible lg:visible'>THINK HOME, THINK VENTO</h2>
         </div>
 
-        <div className='flex  pt-2 gap-0 ml-20 lg:ml-0 lg:gap-4 text-white text-lg cursor-pointer'>
+        <div className='flex  pt-2 gap-4 ml-10 lg:ml-0 lg:gap-4 text-white text-lg cursor-pointer'>
           <FaFacebook  className='text-sm lg:text-lg'/>
           <FaTwitter className='text-sm lg:text-lg'/>
           <FaInstagram className='text-sm lg:text-lg'/>
