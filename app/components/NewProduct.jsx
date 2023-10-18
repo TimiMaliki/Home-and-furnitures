@@ -30,10 +30,10 @@ const NewProduct = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
             <Image src={Wooden} width={380} height={300} className="rounded-lg" alt="..."/>
-            <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-sm mt-2 text-white">NEW</p>
+            <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
+              <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
             <h2>Royal Office Furniture</h2>
             <p>Office Furniture</p>
@@ -42,10 +42,10 @@ const NewProduct = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
             <Image src={Salon} width={380} height={300} className="rounded-lg" alt="..."/>
-            <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-sm mt-2 text-white">NEW</p>
+            <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
+              <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
             <h2>Asya Sofa set-Tripple</h2>
             <p>SOFA SET</p>
@@ -54,10 +54,10 @@ const NewProduct = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
             <Image src={Royal} width={380} height={300} className="rounded-lg" alt="..."/>
-            <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-sm mt-2 text-white">NEW</p>
+            <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
+              <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
             <h2>Angel Dining Room Set</h2>
             <p>Dining Room Set</p>
@@ -66,10 +66,10 @@ const NewProduct = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
             <Image src={Brown} width={380} height={300} className="rounded-lg" alt="..."/>
-            <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-sm mt-2 text-white">NEW</p>
+            <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
+              <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
             <h2>Picaz Corner Set</h2>
             <p>SOFA SET</p>
@@ -78,10 +78,10 @@ const NewProduct = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
             <Image src={Dark} width={380} height={300} className="rounded-lg" alt="..."/>
-            <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-sm mt-2 text-white">NEW</p>
+            <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
+              <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
             <h2>SIRIUS Dining Set</h2>
             <p>Dining Room Set</p>
@@ -90,10 +90,10 @@ const NewProduct = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
             <Image src={Okie} width={380} height={300} className="rounded-lg" alt="..."/>
-            <div className="rounded-full w-12 h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
-              <p className="text-sm mt-2 text-white">NEW</p>
+            <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
+              <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
             <h2>Natural Dining Set</h2>
             <p>Dining Room Set</p>

@@ -31,7 +31,7 @@ const Trending = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Okide} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] lg:mt-2 text-white">Hot</p>
@@ -43,7 +43,7 @@ const Trending = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-center  w-28 lg:w-28 lg:w-full h-96">
             <Image src={Diamond} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full  w-6 h-6 lg:w-12 lg:h-12  bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
@@ -55,7 +55,7 @@ const Trending = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Lofa} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
@@ -67,7 +67,7 @@ const Trending = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Seeda} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
@@ -79,7 +79,7 @@ const Trending = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Bianca} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
@@ -91,7 +91,7 @@ const Trending = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-center w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Monza} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
