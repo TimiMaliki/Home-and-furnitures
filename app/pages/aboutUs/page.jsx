@@ -37,8 +37,8 @@ const blog = () => {
         </div>
       </div>
       <div className="">
-        <div className="p-28">
-          <p className="mb-4">
+        <div className="p-5 lg:p-28">
+          <p className="mb-4 text-lg lg:text-3xl">
             Vento Furniture was established in 2002 in Turkey and decided to
             carry its facilities to Nigeria and Canada.
           </p>
