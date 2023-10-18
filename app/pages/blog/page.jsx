@@ -19,7 +19,7 @@ const page = () => {
         
         <div className="relative">
           <Image src={banner} className="w-full h-48 object-cover" alt="..."/>
-          <div className="absolute top-0 mt-16 grid left-1/2 lg:left-1/2">
+          <div className="absolute top-0 mt-16 grid left-32 lg:left-1/2">
           <h1 className="text-gray-50 font-extrabold text-5xl left-64">
             Blog
           </h1>
