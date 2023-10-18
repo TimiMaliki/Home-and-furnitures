@@ -22,7 +22,7 @@ const Footer = () => {
         <h1 className="text-sm lg:text-lg text-center mb-8">
           FURNITURE CATEGORY
         </h1>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-2 lg:grid-cols-1 gap-8 lg:gap-10">
           <div>
            <ul className="text-sm lg:text-xl">
            <li>Bedroom Sets</li>
