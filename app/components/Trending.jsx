@@ -36,8 +36,8 @@ const Trending = () => {
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] lg:mt-2 text-white">Hot</p>
             </div>
-            <h2>Royal Office Furniture</h2>
-            <p>Office Furniture</p>
+            <h2 className="text-md lg:text-lg">Royal Office Furniture</h2>
+            <p className="text-md lg:text-lg">Office Furniture</p>
             <p className="text-red-500 -mt-8">₦3,100,745,00</p>
           </div>
         </SwiperSlide>
@@ -48,8 +48,8 @@ const Trending = () => {
             <div className="rounded-full  w-6 h-6 lg:w-12 lg:h-12  bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
             </div>
-            <h2>Asya Sofa set-Tripple</h2>
-            <p>SOFA SET</p>
+            <h2 className="text-md lg:text-lg">Asya Sofa set-Tripple</h2>
+            <p className="text-md lg:text-lg">SOFA SET</p>
             <p className="text-red-500 -mt-8">₦1,280,999.00</p>
           </div>
         </SwiperSlide>
@@ -60,8 +60,8 @@ const Trending = () => {
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
             </div>
-            <h2>Angel Dining Room Set</h2>
-            <p>Dining Room Set</p>
+            <h2 className="text-md lg:text-lg">Angel Dining Room Set</h2>
+            <p className="text-md lg:text-lg">Dining Room Set</p>
             <p className="text-red-500 -mt-8">₦4,916,999.00</p>
           </div>
         </SwiperSlide>
@@ -72,8 +72,8 @@ const Trending = () => {
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
             </div>
-            <h2>Picaz Corner Set</h2>
-            <p>SOFA SET</p>
+            <h2 className="text-md lg:text-lg">Picaz Corner Set</h2>
+            <p className="text-md lg:text-lg">SOFA SET</p>
             <p className="text-red-500 -mt-8">₦1,280,999.00 - ₦4,916,999.00</p>
           </div>
         </SwiperSlide>
@@ -84,8 +84,8 @@ const Trending = () => {
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
             </div>
-            <h2>SIRIUS Dining Set</h2>
-            <p>Dining Room Set</p>
+            <h2 className="text-md lg:text-lg">SIRIUS Dining Set</h2>
+            <p className="text-md lg:text-lg">Dining Room Set</p>
             <p className="text-red-500 -mt-8">₦5,002,999.00</p>
           </div>
         </SwiperSlide>
@@ -96,8 +96,8 @@ const Trending = () => {
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-red-500 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">Hot</p>
             </div>
-            <h2>Natural Dining Set</h2>
-            <p>Dining Room Set</p>
+            <h2 className="text-md lg:text-lg">Natural Dining Set</h2>
+            <p className="text-md lg:text-lg">Dining Room Set</p>
             <p className="text-red-500 -mt-8">₦3,545,999.00</p>
           </div>
         </SwiperSlide>

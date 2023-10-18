@@ -30,73 +30,73 @@ const NewProduct = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Wooden} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
-            <h2>Royal Office Furniture</h2>
-            <p>Office Furniture</p>
+            <h2 className="text-md lg:text-lg">Royal Office Furniture</h2>
+            <p className="text-md lg:text-lg">Office Furniture</p>
             <p className="text-red-500 -mt-8">₦3,100,745,00</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
+          <div className="grid items-center text-center  w-28 lg:w-full h-96">
             <Image src={Salon} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
-            <h2>Asya Sofa set-Tripple</h2>
-            <p>SOFA SET</p>
+            <h2 className="text-md lg:text-lg">Asya Sofa set-Tripple</h2>
+            <p className="text-md lg:text-lg">SOFA SET</p>
             <p className="text-red-500 -mt-8">₦1,280,999.00</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Royal} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
-            <h2>Angel Dining Room Set</h2>
-            <p>Dining Room Set</p>
+            <h2 className="text-md lg:text-lg">Angel Dining Room Set</h2>
+            <p className="text-md lg:text-lg">Dining Room Set</p>
             <p className="text-red-500 -mt-8">₦4,916,999.00</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Brown} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
-            <h2>Picaz Corner Set</h2>
-            <p>SOFA SET</p>
+            <h2 className="text-md lg:text-lg">Picaz Corner Set</h2>
+            <p className="text-md lg:text-lg">SOFA SET</p>
             <p className="text-red-500 -mt-8">₦1,280,999.00 - ₦4,916,999.00</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Dark} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
-            <h2>SIRIUS Dining Set</h2>
-            <p>Dining Room Set</p>
+            <h2 className="text-md lg:text-lg">SIRIUS Dining Set</h2>
+            <p className="text-md lg:text-lg">Dining Room Set</p>
             <p className="text-red-500 -mt-8">₦5,002,999.00</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="grid items-center text-centerw-28 w-28 lg:w-full h-96">
+          <div className="grid items-center text-center w-28 lg:w-full h-96">
             <Image src={Okie} width={380} height={300} className="rounded-lg" alt="..."/>
             <div className="rounded-full w-6 h-6 lg:w-12 lg:h-12 bg-green-600 text-center absolute top-7 cursor-pointer">
               <p className="text-xs lg:text-lg mt-[0.3rem] text-white">new</p>
             </div>
-            <h2>Natural Dining Set</h2>
-            <p>Dining Room Set</p>
+            <h2 className="text-md lg:text-lg">Natural Dining Set</h2>
+            <p className="text-md lg:text-lg">Dining Room Set</p>
             <p className="text-red-500 -mt-8">₦3,545,999.00</p>
           </div>
         </SwiperSlide>
