@@ -9,7 +9,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className=" w-full h-full bg-gray-100 gap-8 grid grid-cols-1 px-5 lg:px-20 lg:px-0  sm:grid-cols-2 md:grid-cols-5  lg:grid-cols-5">
-      <div className="w-full h-full p-20">
+      <div className="w-full h-44 lg:h-full p-5 lg:p-20">
         <Image src={ventoBanner} width={100} className="mb-8" alt="..." />
 
         <div className="flex gap-4 justify-center mb-4">
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-full ">
+      <div className="w-full h-[360px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
         <h1 className="mb-8 font-extrabold cursor-pointer text-2xl ">ABUJA</h1>
         <div className="border border-gray-200 mb-10"></div>
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-full">
+      <div className="w-full  h-[410px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
         <h1 className="mb-8 font-extrabold cursor-pointer text-2xl">Lagos</h1>
         <div className="border border-gray-200 mb-10"></div>
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-full">
+      <div className="w-full  h-[360px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
         <h1 className="mb-8 font-extrabold cursor-pointer text-2xl">
           PORT HARCOURT
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-full">
+      <div className="w-full  h-[460px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
         <h1 className="mb-8 font-extrabold cursor-pointer text-2xl">CANADA</h1>
         <div className="border border-gray-200 mb-10"></div>
