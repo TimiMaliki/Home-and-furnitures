@@ -124,7 +124,7 @@ const BestSellers = () => {
 
       {/* mobile view */}
 
-      <div className="-mt-96   lg:ml-32 lg:ml-0 px-32 w-full h-full lg:px-0">
+      <div className="-mt-96  ml-16  lg:ml-32 lg:ml-0 px-10 w-full h-full lg:px-0">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
