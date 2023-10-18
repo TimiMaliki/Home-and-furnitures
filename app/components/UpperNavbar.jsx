@@ -21,11 +21,11 @@ const Navbar = () => {
 
         <div className='flex gap-0 lg:gap-2  text-white invisible lg:visible'>
         <div className='border w-0 lg:w-0 -mt-2 bg-white invisible lg:visible '></div>
-          <h2 className='text-sm lg:text-lg invisible lg:visible'>CONTACT US</h2>
-          <div className='border -mt-2 bg-white invisible lg:visible'></div>
-          <h2 className='text-sm lg:text-lg invisible lg:visible'>FAQS</h2>
-          <div className='border -mt-2 bg-white invisible lg:visible'></div>
-          <h2 className='text-sm lg:text-lg invisible lg:visible'>NEWSLETTER</h2>
+          <h2 className='text-sm lg:text-lg invisible lg:visible cursor-pointer'>CONTACT US</h2>
+          <div className='border -mt-2 bg-white invisible lg:visible cursor-pointer'></div>
+          <h2 className='text-sm lg:text-lg invisible lg:visible cursor-pointer'>FAQS</h2>
+          <div className='border -mt-2 bg-white invisible lg:visible cursor-pointer'></div>
+          <h2 className='text-sm lg:text-lg invisible lg:visible cursor-pointer'>NEWSLETTER</h2>
         </div>
 
         </div>
