@@ -43,78 +43,78 @@ const Footer = () => {
 
       <div className="w-full h-[360px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
-        <h1 className="mb-8 font-extrabold cursor-pointer text-2xl ">ABUJA</h1>
+        <h1 className="mb-8 font-extrabold cursor-pointer  text-xl lg:text-2xl ">ABUJA</h1>
         <div className="border border-gray-200 mb-10"></div>
 
         <div className="grid">
-          <p className="mb-8 hover:font-extrabold cursor-pointer">
+          <p className="mb-8 hover:font-extrabold cursor-pointer  text-sm lg:text-lg">
             Shop L32/33, Jabi Lake Mall, Abuja
           </p>
 
-          <p className="mb-4  cursor-pointer">WORKING HOURS</p>
-          <p className="mb-6  cursor-pointer">
+          <p className="mb-4  cursor-pointer  text-sm lg:text-lg">WORKING HOURS</p>
+          <p className="mb-6  cursor-pointer  text-sm lg:text-lg">
             Monday to Saturday: 08:00-22:00 Sunday: 11:00-21:00
           </p>
-          <p className="mb-2  cursor-pointer">CONTACT</p>
-          <p className=" cursor-pointer">0809 445 1133</p>
+          <p className="mb-2  cursor-pointer  text-sm lg:text-lg">CONTACT</p>
+          <p className=" cursor-pointer  text-sm lg:text-lg">0809 445 1133</p>
         </div>
       </div>
 
       <div className="w-full  h-[410px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
-        <h1 className="mb-8 font-extrabold cursor-pointer text-2xl">Lagos</h1>
+        <h1 className="mb-8 font-extrabold cursor-pointer text-xl lg:text-2xl">Lagos</h1>
         <div className="border border-gray-200 mb-10"></div>
 
         <div className="grid">
-          <p className="mb-8 hover:font-extrabold cursor-pointer">
+          <p className="mb-8 hover:font-extrabold cursor-pointer  text-sm lg:text-lg">
             79 Allen Avenue Ikeja 25 Glover Road Ikoyi Festival Mall Festac
           </p>
-          <p className="mb-4  cursor-pointer">WORKING HOURS</p>
-          <p className="mb-6  cursor-pointer">
+          <p className="mb-4  cursor-pointer  text-sm lg:text-lg">WORKING HOURS</p>
+          <p className="mb-6  cursor-pointer  text-sm lg:text-lg">
             Monday to Saturday: 08:00-22:00 Sunday: 11:00-21:00
           </p>
-          <p className="mb-2  cursor-pointer">CONTACT</p>
-          <p className=" cursor-pointer">Ikeja: 0809 999 0082</p>
-          <p className=" cursor-pointer">Ikoyi: 0909 463 1471</p>
-          <p className=" cursor-pointer">Festac: 0909 711 1311</p>
+          <p className="mb-2  cursor-pointer  text-sm lg:text-lg">CONTACT</p>
+          <p className=" cursor-pointer  text-sm lg:text-lg">Ikeja: 0809 999 0082</p>
+          <p className=" cursor-pointer  text-sm lg:text-lg">Ikoyi: 0909 463 1471</p>
+          <p className=" cursor-pointer  text-sm lg:text-lg">Festac: 0909 711 1311</p>
         </div>
       </div>
 
       <div className="w-full  h-[360px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
-        <h1 className="mb-8 font-extrabold cursor-pointer text-2xl">
+        <h1 className="mb-8 font-extrabold cursor-pointer  text-xl lg:text-2xl">
           PORT HARCOURT
         </h1>
         <div className="border border-gray-200 mb-10"></div>
 
         <div className="grid">
-          <p className="mb-8 hover:font-extrabold cursor-pointer">
+          <p className="mb-8 hover:font-extrabold cursor-pointer  text-sm lg:text-lg  text-sm lg:text-lg">
             7a Azikiwe Road 17 Peter Odili Road
           </p>
-          <p className="mb-4  cursor-pointer">WORKING HOURS</p>
-          <p className="mb-6  cursor-pointer">
+          <p className="mb-4  cursor-pointer  text-sm lg:text-lg">WORKING HOURS</p>
+          <p className="mb-6  cursor-pointer  text-sm lg:text-lg">
             Monday to Saturday: 08:00-22:00 Sunday: 11:00-21:00
           </p>
-          <p className="mb-2  cursor-pointer">CONTACT</p>
-          <p className=" cursor-pointer">0809 781 7298</p>
+          <p className="mb-2  cursor-pointer  text-sm lg:text-lg">CONTACT</p>
+          <p className=" cursor-pointer  text-sm lg:text-lg">0809 781 7298</p>
         </div>
       </div>
 
       <div className="w-full  h-[460px] lg:h-full">
         <div className="border border-gray-200  w-full mt-20 mb-8"></div>
-        <h1 className="mb-8 font-extrabold cursor-pointer text-2xl">CANADA</h1>
+        <h1 className="mb-8 font-extrabold cursor-pointer text-xl lg:text-2xl">CANADA</h1>
         <div className="border border-gray-200 mb-10"></div>
 
         <div className="grid">
-          <p className="mb-8 hover:font-extrabold cursor-pointer">
+          <p className="mb-8 hover:font-extrabold cursor-pointer  text-sm lg:text-lg">
             4326 Walker Rd, Windsor, ON N8W 3T5 Canada
           </p>
-          <p className="mb-4  cursor-pointer">WORKING HOURS</p>
-          <p className="mb-6  cursor-pointer">
+          <p className="mb-4  cursor-pointer  text-sm lg:text-lg">WORKING HOURS</p>
+          <p className="mb-6  cursor-pointer  text-sm lg:text-lg">
             Monday to Saturday: 08:00-22:00 Sunday: 11:00-21:00
           </p>
-          <p className="mb-2  cursor-pointer">CONTACT</p>
-          <p className=" cursor-pointer">+1 (519) 250-0606</p>
+          <p className="mb-2  cursor-pointer  text-sm lg:text-lg">CONTACT</p>
+          <p className=" cursor-pointer  text-sm lg:text-lg">+1 (519) 250-0606</p>
         </div>
       </div>
     </div>
