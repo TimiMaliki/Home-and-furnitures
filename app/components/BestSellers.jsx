@@ -18,14 +18,13 @@ import 'swiper/css/scrollbar';
 
 const BestSellers = () => {
 
-
-
   return (
     <div className='lg:px-20  w-full h-full '>
     <div className='w-30 h-26  items-center text-center '>
           <h2 className='text-lg font-black text-3xl mt-2  mb-4'>BEST SELLER</h2>
         </div>
   
+ 
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -33,7 +32,7 @@ const BestSellers = () => {
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper"
+          className=""
       >
   
   
@@ -96,10 +95,14 @@ const BestSellers = () => {
   
   
       </Swiper>
+
      
   
       </div>
+
+      
   )
+  
 }
 
 export default BestSellers

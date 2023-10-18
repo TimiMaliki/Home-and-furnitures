@@ -13,10 +13,10 @@ const Footer = () => {
         <Image src={ventoBanner} width={100} className="mb-8" alt="..." />
 
         <div className="flex gap-4 justify-center mb-4">
-          <Image src={facebook} alt="..." className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px] " />
-          <Image src={Instagram} className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px]" alt="..." />
-          <Image src={twitter} className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px]" alt="..." />
-          <Image src={youtube} className=" w-[35px] h-[35px] lg:w-[70px] lg:h-[70px]" alt="..." />
+          <Image src={facebook} alt="..." className=" w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] " />
+          <Image src={Instagram} className=" w-[35px] h-[35px] lg:w-[50px] lg:h-[50px]" alt="..." />
+          <Image src={twitter} className=" w-[35px] h-[35px] lg:w-[50px] lg:h-[50px]" alt="..." />
+          <Image src={youtube} className=" w-[35px] h-[35px] lg:w-[50px] lg:h-[50px]" alt="..." />
         </div>
 
         <h1 className="text-sm lg:text-lg text-center mb-8">
