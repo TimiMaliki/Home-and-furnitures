@@ -111,7 +111,7 @@ const blog = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="invisible lg:visible">
         <div className="border border-gray-200  lg:w-4/5 lg:ml-20  mb-2"></div>
       </div>
 
