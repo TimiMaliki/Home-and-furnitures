@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscription = () => {
   return (
-    <div className="grid place-content-center p-28">
+    <div className="grid place-content-center p-5 lg:p-28">
       <h1 className="text-xl lg:text-3xl font-semibold mb-8 text-center">
         Subscribe to our newsletter
       </h1>
